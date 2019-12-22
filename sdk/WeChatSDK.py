@@ -73,6 +73,6 @@ if __name__ == "__main__":
     print(wxsdk.WXIsWechatSDKOk())
     print(wxsdk.WXInitialize())
     input("wait for...")
-    print(wxsdk.WXSendTextMsg("wxid_n11111", "This is a python sdk test msg"))
+    print(wxsdk.WXSendTextMsg("filehelper", "This is a python sdk test msg"))
     wxsdk.WXRecvTextMsg(g_RecvTextMsg)
     input("wait for recv msg...")
